@@ -56,4 +56,6 @@ function accessElementInArray(array,index) {
   console.log(array[index]);
 }
 
-function 
+function destructivelyRemoveElementFromBeginningOfArray(array) {
+  return array.shift;
+}
